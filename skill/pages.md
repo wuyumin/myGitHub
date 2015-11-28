@@ -15,7 +15,7 @@ index.html：你的站点首页文件。
 # 其他说明  
 如果个人/组织免费站点绑定了域名，项目免费站点也会使用你绑定的域名，除非你单独也给项目站点绑定域名，否则访问时是个人/组织免费站点绑定了域名+项目仓库名称来访问你的项目免费站点。  
   
-我的项目站点仓库是 https://github.com/wuyumin/myGitHub/tree/gh-pages 你可以参考一下  
+我的项目站点仓库是 https://github.com/wuyumin/myGitHub/tree/gh-pages 你可以参考一下，是gh-pages分支哦  
   
 # 如果遇到问题，欢迎访问我的GitHub https://github.com/wuyumin 并Star我及向我发送Issues  
   
