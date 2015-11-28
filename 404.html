@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>提示</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<style>
+*{margin:0 auto;padding:0;}
+body{background:#e1e0de;color:#333;font-size:14px;}
+a{color:#00609c;text-decoration:none;}
+img{border:none;}
+#wrap{margin:20px 0;text-align:center;}
+#rotatepic{-webkit-animation:rotatepic 4s linear infinite;-moz-animation:rotatepic 4s linear infinite;-ms-animation:rotatepic 4s linear infinite;-o-animation:rotatepic 4s linear infinite;animation:rotatepic 4s linear infinite;}
+.tips{margin:5px 0;font-size:16px;font-weight:bold;}
+.reason{width:140px;text-align:left;color:#666;font-size:13px;}
+.reason dt{color:#444;}
+.foot{margin-top:5px;}
+.foot a{color:#00609c;}
+/*动画*/
+@-webkit-keyframes rotatepic{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(360deg)}}
+@-moz-keyframes rotatepic{from{-moz-transform:rotate(0deg)}to{-moz-transform:rotate(360deg)}}
+@-ms-keyframes rotatepic{from{-ms-transform:rotate(0deg)}to{-ms-transform:rotate(360deg)}}
+@-o-keyframes rotatepic{from{-o-transform:rotate(0deg)}to{-o-transform:rotate(360deg)}}
+@keyframes rotatepic{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div id="wrap">
+<div><a href="/"><img src="/assets/img/error.png" alt="" id="rotatepic"></a></div>
+<div class="tips">抱歉，该页无法显示</div>
+<div class="reason">
+<dl>
+	<dt>可能原因:</dt>
+	<dd>网址拼写错误</dd>
+	<dd>该页不存在或已被删除</dd>
+</dl>
+</div>
+<div class="foot"><a href="/">返回首页</a></div>
+</div>
+</body>
+</html>
